@@ -12,14 +12,14 @@ import com.dicoding.synrgy4_challange.data.model.Note
 @Dao
 interface NoteDao {
     @Insert(onConflict = OnConflictStrategy.IGNORE)
-    fun insert(note: Note)
+    suspend fun insert(note: Note)
 
     @Query("SELECT * FROM notes")
     fun getAll(): LiveData<List<Note>>
 
     @Update
-    fun update(note: Note)
+    suspend fun update(note: Note)
 
     @Delete
-    fun delete(note: Note)
+    suspend fun delete(note: Note)
 }

@@ -39,6 +39,10 @@ android {
         generateStubs = true
     }
 
+    buildFeatures {
+        viewBinding = true
+    }
+
 }
 
 dependencies {

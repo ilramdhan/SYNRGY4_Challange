@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SYNRGY4_Challange</string>
+    <string name="notes">Notes</string>
+    <string name="add_note">Add Note</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="add_notes">Add Notes</string>
+    <string name="titles">Title</string>
+    <string name="descriptions">Description</string>
+</resources>

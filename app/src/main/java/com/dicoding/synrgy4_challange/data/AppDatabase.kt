@@ -7,7 +7,7 @@ import androidx.room.RoomDatabase
 import com.dicoding.synrgy4_challange.data.dao.NoteDao
 import com.dicoding.synrgy4_challange.data.model.Note
 
-@Database(entities = [Note::class], version = 1)
+@Database(entities = [Note::class], version = 2)
 abstract class AppDatabase: RoomDatabase() {
     abstract fun noteDao(): NoteDao
 
